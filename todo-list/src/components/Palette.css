@@ -1,0 +1,19 @@
+.palette{  
+  display: flex;    
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1rem;
+  background: #eee;
+}
+
+.palette .color-box{
+  display: inline-block;
+  border: 1px solid #ddd;
+  width: 30px; 
+  height: 30px;  
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+

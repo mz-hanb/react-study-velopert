@@ -1,0 +1,26 @@
+.ListItem{
+  list-style: none;
+  padding: 5px 0;    
+  font-size: 14px;
+  line-height: 14px;  
+}
+.ListItem:not(:last-child){
+  border-bottom: 1px solid #eee;
+}
+.ListItem>*{
+  display: inline-block;
+}
+
+.ListItem .btn-del-todo{  
+}
+.ListItem .btn-check-todo{  
+}
+.ListItem.done{
+  color: #eee;
+}
+.ListItem.done .btn-check-todo{
+  display: inline-block;
+}
+.ListItem:after{
+  clear: both;
+}

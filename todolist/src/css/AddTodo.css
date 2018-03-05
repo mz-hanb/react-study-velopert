@@ -1,0 +1,19 @@
+.AddTodo{
+  padding: 20px;
+  text-align: center;
+}
+.AddTodo input{
+  margin-right: 10px;
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid #00B7CC;  
+}
+
+.AddTodo button{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #00B7CC;
+}
