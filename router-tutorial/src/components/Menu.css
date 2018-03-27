@@ -1,0 +1,21 @@
+.menu{
+  background: #5c7cfa;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.item{
+  text-align: center;
+  padding: 1rem 0;
+  display: table-cell;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.item:hover{
+  background: #748ffc;  
+}
+.item:active, .item.active{
+  background: #eee;
+  color: #5c7cfa;
+}
